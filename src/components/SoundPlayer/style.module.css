@@ -1,0 +1,14 @@
+.youtubeCard {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-color: antiquewhite;
+}
+
+.noShow {
+  display: none;
+}
+
+.show {
+  display: block;
+}

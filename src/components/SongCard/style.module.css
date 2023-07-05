@@ -1,0 +1,48 @@
+.songCard {
+  width: 15vw;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  margin: 0.2%;
+  gap: 5%;
+
+  background-color: rgba(255, 255, 255, 0.059);
+  border-radius: 4% 4% 4% 4%;
+}
+
+.title {
+  color: rgb(234, 224, 224);
+}
+
+.img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10% 10% 10% 10%;
+  object-fit: cover;
+  transition: transform 0.9s;
+}
+
+.img:hover {
+  transform: scale(1.04);
+}
+
+/* .img:hover {
+  transform: translate(-2%, -2%);
+} */
+
+.play {
+  width: 20%;
+  height: 20%;
+  color: rgb(226, 29, 29);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: transform 0.55s;
+}
+
+.play:hover {
+  transform: scale(1.3);
+  opacity: 1;
+}

@@ -1,0 +1,8 @@
+.content {
+  height: 100%;
+  width: 90%;
+
+  background-color: black;
+  border-top: solid 3px white;
+  border-left: solid 3px white;
+}
